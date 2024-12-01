@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiana Spring Flowers</title>
+</head>
+<body>
+
+</body>
+<script>
+    let headerRef = document.createElement("header");
+    headerRef.textContent = "Springtime in Indiana";
+    headerRef.style.fontSize = "200%";
+    headerRef.style.textAlign = "center";
+    document.body.append(headerRef);
+
+    let paraRef = document.createElement("p");
+    paraRef.textContent = "Springtime in Indiana is never predictable, it could be filled with sunshine, rain, or even snow. The best way to prepare for spring is to keep a range of clothing handy, because you never know what the weather will bring.";
+    document.body.append(paraRef);
+
+    let listRef = document.createElement("ul");
+    let listItem1Ref = document.createElement("li");
+    let listItem2Ref = document.createElement("li");
+    let listItem3Ref = document.createElement("li");
+    listRef.append(listItem1Ref);
+    listItem1Ref.textContent = "Daffodil, golden yellow rays of sunlight";
+    listRef.append(listItem1Ref);
+    listItem2Ref.textContent = "Crocus, purple carpets";
+    listRef.append(listItem2Ref);
+    listItem3Ref.textContent = "Iris, multi-colored spectacle";
+    listRef.append(listItem3Ref);
+    document.body.append(listRef);
+</script>
+</html>
